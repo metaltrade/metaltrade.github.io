@@ -102747,7 +102747,7 @@ l=o.a
 k=$.h1()
 j=$.lk()
 s=8
-return A.z(l.at.$1(new A.f6(A.h(k)+"user",B.bV,null,A.ax(["Authorization","Bearer "+A.h(j.a),"Content-Type","application/json","Accept-Encoding","gzip"],t.N,t.z))),$async$$2)
+return A.z(l.at.$1(new A.f6(A.h(k)+"user",B.bV,null,A.ax(["Authorization","Bearer "+A.h(j.a),"Content-Type","application/json"],t.N,t.z))),$async$$2)
 case 8:n=d
 if(n.a!=null){if(n.a.d!=null){k=n.a.d.b
 k.toString
