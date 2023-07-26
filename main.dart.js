@@ -29237,7 +29237,7 @@ _.d=d},
 CX:function CX(a,b){this.a=a
 this.b=b},
 baz(){var s="application/json",r=$.lk(),q=t.N
-return new A.atT(new A.atS(A.aXo(A.bhs(),B.B,B.hx,B.hx,new A.atU(),A.Cx(),A.Cx(),A.Cx(),A.Cx(),A.Cx(),A.Cx(),A.Cx(),new A.atV(),B.hx,A.ax(["Authorization","Bearer "+A.h(r.a),"Content-Type",s,"Accept-Encoding","gzip"],q,q),"wss://api.metaltrade.io/ws",!1,A.ax(["Authorization","Bearer "+A.h(r.a),"Content-Type",s,"Accept-Encoding","gzip"],q,t.z))))},
+return new A.atT(new A.atS(A.aXo(A.bhs(),B.B,B.hx,B.hx,new A.atU(),A.Cx(),A.Cx(),A.Cx(),A.Cx(),A.Cx(),A.Cx(),A.Cx(),new A.atV(),B.hx,A.ax(["Authorization","Bearer "+A.h(r.a),"Content-Type",s],q,q),"wss://api.metaltrade.io/ws",!1,A.ax(["Authorization","Bearer "+A.h(r.a),"Content-Type",s],q,t.z))))},
 atT:function atT(a){this.a=a},
 atU:function atU(){},
 atV:function atV(){},
@@ -100785,7 +100785,7 @@ p.toString
 s=this.Q
 s===$&&A.b()
 r=t.N
-r=A.ax(["Accept-Encoding","gzip","Authorization","Bearer "+A.h($.lk().a)],r,r)
+r=A.ax(["Authorization","Bearer "+A.h($.lk().a)],r,r)
 q=p.b
 if(q==null)A.R(A.aQr(u.H))
 q.a4c(0,new A.ad_(this),"/company/"+s+"/queue/messages",r)},
@@ -100840,7 +100840,7 @@ if(m.a.a.length===0)return
 s=n.w
 s.toString
 r=t.N
-q=A.ax(["Accept-Encoding","gzip","Authorization","Bearer "+A.h($.lk().a)],r,r)
+q=A.ax(["Authorization","Bearer "+A.h($.lk().a)],r,r)
 p=n.as
 p===$&&A.b()
 p=B.aS.xe(A.ax(["enquiryId",p,"body",A.ax(["text",m.a.a],r,r)],r,t.K))
@@ -113819,7 +113819,7 @@ q.Ze$=p
 q.Zf$=new A.abT(A.aJ(t.Gf))
 return new A.ada(q)})
 r($,"bmZ","lm",()=>{var q=t.N
-return A.ax(["Authorization","Bearer "+A.h($.lk().a),"Content-Type","application/json","Accept-Encoding","gzip"],q,q)})
+return A.ax(["Authorization","Bearer "+A.h($.lk().a),"Content-Type","application/json"],q,q)})
 r($,"bjL","b1q",()=>A.baz())
 s($,"bnd","b3j",()=>{var q=null
 return A.b7c("/",A.a([A.iM(q,q,new A.aNb(),"/"),A.iM(q,q,new A.aNc(),"/landingPage"),A.iM(q,q,new A.aNd(),"/dashBoard"),A.iM(q,q,new A.aNg(),"/loginPage"),A.iM(q,"otpPage",new A.aNh(),"/otpPageRoute"),A.iM(q,"CreateEnquiryPageName",new A.aNi(),"/createEnquiryRoute"),A.iM(q,"ProfilePageName",new A.aNj(),"/profilePageRoute"),A.iM(q,"KycPageName",new A.aNk(),"/kycPageRoute"),A.iM(q,"EnquiryDEtailPageName",new A.aNl(),"/enquiryDetailPageRoute"),A.iM(q,"MyEnquiryDetailsPage",new A.aNm(),"/myEnuiryPageRoute"),A.iM(q,"SubmitQuotePageName",new A.aNn(),"/submitQuotePage"),A.iM(q,"ChatPageName",new A.aNe(),"/chatPage"),A.iM(q,"MyQuotePageRouteName",new A.aNf(),"/myQuotePageRoute")],t.yo))})
