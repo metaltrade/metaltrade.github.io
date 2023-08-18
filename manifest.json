@@ -1,6 +1,6 @@
 {
-    "name": "metaltrade",
-    "short_name": "metaltrade",
+    "name": "mtp_web",
+    "short_name": "mtp_web",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
